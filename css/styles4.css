@@ -1,0 +1,420 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  line-height: 1.5;
+  outline: none;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* width: 100%; */
+}
+li a {
+  text-decoration: none;
+  color: grey;
+}
+li a :hover {
+  color: white;
+}
+ul {
+  list-style: none;
+}
+
+.headerContainer {
+  /* border: 2px solid blue; */
+  background-color: #212529;
+}
+.navContainer {
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 40px;
+  padding: 5px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContainer p {
+  color: white;
+}
+.navList {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  justify-content: space-between;
+}
+.tobiSection1 {
+  /* border: 2px solid rgb(188, 6, 6); */
+  /* padding: 60px; */
+  display: flex;
+  justify-content: center;
+}
+.tobiBox {
+  /* border: 2px solid blue; */
+  width: 80%;
+  height: 460px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.tobiSmallbox {
+  /* border: 2px solid rgb(212, 9, 239); */
+  margin-top: 15px;
+  width: 100%;
+  height: 91%;
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 2px rgb(180, 178, 178);
+}
+.tobiDivide1 {
+  /* border: 2px solid green; */
+  width: 40%;
+  height: 93%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+.tobiDivide2 {
+  /* border: 2px solid yellow; */
+  width: 60%;
+  height: 100%;
+  background-color: rgb(52, 58, 64);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.numeric p {
+  color: rgb(108, 117, 125);
+  font-size: 80px;
+  font-weight: 200;
+  /* font-weight: lighter; */
+  /* text-align: center;
+    position: relative; */
+}
+.tobiBtn {
+  /* border: 2px solid blue; */
+  border-radius: 8px;
+  background-color: rgb(34, 122, 253);
+  color: white;
+  width: 50px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center;
+   padding-bottom: 9px; */
+  font-size: 13px;
+}
+.headingText h1 {
+  font-size: large;
+}
+.Search {
+  color: rgb(42, 111, 253);
+  margin-top: 10px;
+}
+.tobiSection2 {
+  background-color: rgb(248, 249, 250);
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.tobiLink {
+  /* border: 2px solid black; */
+  width: 90%;
+  height: 500px;
+  display: flex;
+}
+.Lefty {
+  /* border: 2px solid blue; */
+  background-color: rgb(248, 249, 250);
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Righty {
+  /* border: 2px solid orange; */
+  background-color: rgb(248, 249, 250);
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.link1 {
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+}
+.link2 {
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+}
+.link3 {
+  color: black;
+  font-size: x-large;
+  font-weight: 600;
+}
+.SegLink1 p {
+  color: rgb(148, 163, 177);
+}
+.SegLink2 p {
+  color: rgb(148, 163, 177);
+}
+.SegLink3 {
+  margin-bottom: 100px;
+}
+.SegLink3 p {
+  color: rgb(148, 163, 177);
+}
+.further {
+  display: flex;
+  justify-content: flex-end;
+  color: rgb(22, 126, 252);
+}
+.ContactInq {
+  /* border: 2px solid green; */
+  background-color: white;
+  width: 85%;
+  height: 80%;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Inq1 {
+  font-weight: bold;
+}
+.Inq2 {
+  color: rgb(112, 124, 132);
+}
+.Inq3 a {
+  color: rgb(13, 110, 253);
+}
+.Inq4 {
+  margin-top: 20px;
+  color: rgb(33, 37, 60);
+  font-weight: bold;
+}
+.twitterLogo {
+  width: 40px;
+  height: 40px;
+}
+.facebookLogo {
+  width: 40px;
+  height: 40px;
+}
+.linkedinLogo {
+  padding-left: 7px;
+  margin-bottom: 8px;
+  width: 25px;
+  height: 25px;
+}
+.ytLogo {
+  width: 35px;
+  height: 35px;
+}
+.blogCards {
+  width: 80%;
+  /* border: 2px solid blue;  */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+.blogBox {
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  width: 30%;
+  /* height: 100%; */
+  box-shadow: 2px 2px 2px 2px rgb(228, 228, 228);
+  text-align: left;
+  overflow: hidden;
+}
+.blogContainer {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 41%;
+}
+.blogImg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.Overt {
+  padding: 15px;
+}
+
+.reFix {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+/* .dofix{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+} */
+span p {
+  /* border: 2px solid black; */
+  background-color: #297ffd;
+  border-radius: 7px;
+  width: 70px;
+  color: white;
+  text-align: center;
+}
+.authorinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tobiSection3{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+.LastSide{
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: relative;
+    top: 250px;
+    right: 120px;
+  }
+  .LastSide p{
+    color: rgb(33,121,253);
+  }
+.footerContainer {
+  /* border: 2px solid blue; */
+  height: 100px;
+  background-color: rgb(33, 37, 41);
+  color: rgb(249, 244, 245);
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px 0; */
+}
+.footerContainer a {
+  color: rgb(249, 244, 245);
+  margin: 0 3px;
+}
+
+.footer0 {
+  /* border: 2px solid green; */
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .navList {
+    display: none;
+  }
+
+  .hamburgerBtn {
+    display: block;
+    border: 2px solid grey;
+    border-radius: 5px;
+  }
+  .hamburger {
+    width: 25px;
+    height: 2px;
+    background-color: rgba(192, 181, 181, 0.582);
+    margin: 5px;
+  }
+  .footer0 {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .tobiSmallbox {
+    display: flex;
+    flex-direction: column;
+  }
+  .tobiDivide1 {
+    width: 91%;
+    height: 40%;
+  }
+  .tobiDivide2 {
+    width: 100%;
+    height: 60%;
+  }
+  .tobiBox {
+    width: 80%;
+    height: 490px;
+  }
+  .tobiDivide1 p {
+    padding-right: 49px;
+  }
+  .numeric p {
+    font-size: 60px;
+    font-weight: lighter;
+  }
+  .tobiLink {
+    /* border: 2px solid black; */
+    width: 90%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Lefty {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    gap: 5px;
+  }
+  .Righty {
+    width: 100%;
+    height: 40%;
+  }
+  .further {
+    /* display: flex;
+    justify-content: flex-end; */
+    color: rgb(22, 126, 252);
+  }
+  .blogCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  .blogBox {
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    width: 90%;
+    height: 100%;
+    box-shadow: 2px 2px 2px 2px rgba(132, 128, 128, 0.571);
+    text-align: left;
+    margin-top: 20px;
+  }
+  .tobiSection3{
+    padding: 90px 0;
+  }
+  .LastSide{
+    /* display: flex; */
+    /* flex-direction: column; */
+    position: relative;
+    top: 750px;
+  }
+}
